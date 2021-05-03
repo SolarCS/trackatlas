@@ -1,0 +1,7 @@
+{
+    "protocol": "mongodb+srv",
+    "mongodb_url": "banff.txsdq.mongodb.net",
+    "database_name": "banff",
+    "username": "",
+    "password": ""
+}
