@@ -1,6 +1,8 @@
 const {MongoDBConnect, CareProviders} = require('./lib/mongo_utils');
 const {createCSV} = require('./lib/csv');
 
+const FILE_PATH = './reports/';
+
 async function run() {
     const mongo_connection = new MongoDBConnect();
     try {
@@ -36,53 +38,29 @@ async function run() {
         });
     
         //--Load
-        //--Complete Care Providers List
-        createCSV(
-            "./care_providers_list.csv", 
-            [
-                {id: '_id', title: 'ID'},
-                {id: 'name', title: 'NAME'},
-                {id: 'created_at', title: 'CREATED'},
-                {id: 'createdAtMS', title: 'CREATED (MS)'},
-                {id: 'updated_at', title: 'UPDATED'},
-                {id: 'updatedAtMS', title: 'UPDATED (MS)'},
-                {id: 'tags', title: 'TAGS'}
-            ], 
-            cp_list
-        );
-
-        createCSV(
-            "./test_demo_canceled_care_providers_list.csv", 
-            [
-                {id: '_id', title: 'ID'},
-                {id: 'name', title: 'NAME'},
-                {id: 'created_at', title: 'CREATED'},
-                {id: 'createdAtMS', title: 'CREATED (MS)'},
-                {id: 'updated_at', title: 'UPDATED'},
-                {id: 'updatedAtMS', title: 'UPDATED (MS)'},
-                {id: 'tags', title: 'TAGS'}
-            ], 
-            test_filtered_list
-        );
-
-        createCSV(
-            "./actual_care_providers_list.csv", 
-            [
-                {id: '_id', title: 'ID'},
-                {id: 'name', title: 'NAME'},
-                {id: 'created_at', title: 'CREATED'},
-                {id: 'createdAtMS', title: 'CREATED (MS)'},
-                {id: 'updated_at', title: 'UPDATED'},
-                {id: 'updatedAtMS', title: 'UPDATED (MS)'},
-                {id: 'tags', title: 'TAGS'}
-            ], 
-            filtered_list
-        );
-
+        createCSVReport(cp_list, "care_providers_list.csv");
+        createCSVReport(test_filtered_list, "test_demo_canceled_care_providers_list.csv");
+        createCSVReport(filtered_list, "actual_care_providers_list.csv");
     } finally {
         mongo_connection.close();
         console.log("Closed");
     }
+
+    function createCSVReport(cp_list, filename) {
+        createCSV(
+            FILE_PATH + filename,
+            [
+                { id: '_id', title: 'ID' },
+                { id: 'name', title: 'NAME' },
+                { id: 'created_at', title: 'CREATED' },
+                { id: 'createdAtMS', title: 'CREATED (MS)' },
+                { id: 'updated_at', title: 'UPDATED' },
+                { id: 'updatedAtMS', title: 'UPDATED (MS)' },
+                { id: 'tags', title: 'TAGS' }
+            ],
+            cp_list
+        );
+    }
 }
 
-run().catch(console.dir);
+run().catch(console.error);
