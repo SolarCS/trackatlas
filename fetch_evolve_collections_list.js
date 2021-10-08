@@ -20,9 +20,7 @@ fetchCollectionList().then(collections => {
 
     collectionNames.sort();
 
-    console.log(collectionNames);
-
-    fs.writeFile(FILE_PATH, JSON.stringify(collectionNames), err => {
+    fs.writeFile(FILE_PATH, collectionNames.join('\n'), err => {
         if (err) {
             console.error(err);
         } else {
