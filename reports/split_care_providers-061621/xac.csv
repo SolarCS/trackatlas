@@ -1,0 +1,21 @@
+ID,NAME,CREATED,CREATED (MS),UPDATED,UPDATED (MS),TAGS
+516e91ab26a97a325d000001,Bronx Lebanon Hospital Center,Wed Apr 17 2013 08:12:27 GMT-0400 (Eastern Daylight Time),1.3662E+12,Tue Jan 26 2021 22:02:40 GMT-0500 (Eastern Standard Time),1.61172E+12,"hl7,orchid,voice"
+57a48b46677aff47c8c8c34e,Cedar Community,Fri Aug 05 2016 08:49:10 GMT-0400 (Eastern Daylight Time),1.4704E+12,Fri Dec 18 2020 09:58:24 GMT-0500 (Eastern Standard Time),1.6083E+12,"snf,voice"
+583f7a62da771056d68c122a,Well Care Home Health,Wed Nov 30 2016 20:18:26 GMT-0500 (Eastern Standard Time),1.48056E+12,Fri Apr 02 2021 15:28:51 GMT-0400 (Eastern Daylight Time),1.61739E+12,"hha,orchid,sftp,voice"
+58f5155874410f7afcd151ea,Selin CP Name,Mon Apr 17 2017 15:19:52 GMT-0400 (Eastern Daylight Time),1.49246E+12,Tue Apr 27 2021 16:17:46 GMT-0400 (Eastern Daylight Time),1.61955E+12,
+59c091e3d27cbe326af69d68,CHI Health,Mon Sep 18 2017 23:41:23 GMT-0400 (Eastern Daylight Time),1.50579E+12,Thu Apr 15 2021 10:29:26 GMT-0400 (Eastern Daylight Time),1.6185E+12,"hl7,orchid,sso,voice"
+5a944e9fd27cbe7a4c7adc33,Schneck Medical Center,Mon Feb 26 2018 13:14:55 GMT-0500 (Eastern Standard Time),1.51967E+12,Tue Jan 26 2021 22:01:24 GMT-0500 (Eastern Standard Time),1.61172E+12,"appointment reminders,hl7,voice"
+551424215241491cd50b0000,Baptist Health,Thu Mar 26 2015 11:22:09 GMT-0400 (Eastern Daylight Time),1.42738E+12,Thu Dec 17 2020 09:31:43 GMT-0500 (Eastern Standard Time),1.60822E+12,voice
+55aef3d15241493cb2d40100,Wichita Falls GI Associates,Tue Jul 21 2015 21:37:21 GMT-0400 (Eastern Daylight Time),1.43753E+12,Wed Mar 17 2021 15:18:44 GMT-0400 (Eastern Daylight Time),1.61601E+12,"appointment reminders,kiosk,orchid,voice"
+559d9b1452414928ff9d0000,University of Pennsylvania Health System,Wed Jul 08 2015 17:50:12 GMT-0400 (Eastern Daylight Time),1.43639E+12,Fri Apr 30 2021 17:00:29 GMT-0400 (Eastern Daylight Time),1.61982E+12,voice
+562529d15241495c5e530000,Flagler Hospital,Mon Oct 19 2015 13:35:13 GMT-0400 (Eastern Daylight Time),1.44528E+12,Thu Feb 11 2021 12:12:22 GMT-0500 (Eastern Standard Time),1.61306E+12,"orchid,voice"
+57882c6b4004122fb14f4094,Sturdy Memorial Hospital,Thu Jul 14 2016 20:20:59 GMT-0400 (Eastern Daylight Time),1.46854E+12,Thu Dec 17 2020 06:02:19 GMT-0500 (Eastern Standard Time),1.6082E+12,voice
+59ee651bd27cbe65baa14a23,Our Lady of the Lake Regional Medical Center,Mon Oct 23 2017 17:54:35 GMT-0400 (Eastern Daylight Time),1.5088E+12,Fri Mar 19 2021 13:15:25 GMT-0400 (Eastern Daylight Time),1.61617E+12,"hl7,orchid,sso"
+5acfa72aff16722d8f9117b0,Cedars-Sinai Medical Center,Thu Apr 12 2018 14:36:26 GMT-0400 (Eastern Daylight Time),1.52356E+12,Sat Apr 24 2021 14:17:28 GMT-0400 (Eastern Daylight Time),1.61929E+12,"implementation,pilot,sftp,voice"
+5b06f54eff1672b95687c44b,Revival Home Health,Thu May 24 2018 13:24:30 GMT-0400 (Eastern Daylight Time),1.52718E+12,Mon Feb 01 2021 21:30:47 GMT-0500 (Eastern Standard Time),1.61223E+12,"hha,implementation"
+5b2286ddff1672e6cf391489,Christiana Care Health System,Thu Jun 14 2018 11:16:45 GMT-0400 (Eastern Daylight Time),1.52899E+12,Fri Apr 16 2021 01:02:41 GMT-0400 (Eastern Daylight Time),1.61855E+12,"hl7,implementation,orchid,sso"
+5b6dac0e74410f377770e4df,Hill Physicians Medical Group,Fri Aug 10 2018 11:15:26 GMT-0400 (Eastern Daylight Time),1.53391E+12,Tue Apr 27 2021 16:30:40 GMT-0400 (Eastern Daylight Time),1.61956E+12,"sftp,voice"
+51af69c4acc0db6d5e000189,SCL - Good Samaritan Medical Center,Wed Jun 05 2013 12:39:32 GMT-0400 (Eastern Daylight Time),1.37045E+12,Tue Dec 15 2020 09:58:02 GMT-0500 (Eastern Standard Time),1.60804E+12,"orchid,voice"
+5175aa7e1b85b034fb00007a,Saint Francis Hospital,Mon Apr 22 2013 17:24:14 GMT-0400 (Eastern Daylight Time),1.36667E+12,Fri Apr 30 2021 14:23:04 GMT-0400 (Eastern Daylight Time),1.61981E+12,voice
+5785446a677aff398bd74cf6,University of Alabama Birmingham,Tue Jul 12 2016 15:26:34 GMT-0400 (Eastern Daylight Time),1.46835E+12,Fri Apr 02 2021 14:45:38 GMT-0400 (Eastern Daylight Time),1.61739E+12,"echo,hl7,orchid,sso"
+58cfe3a074410f2d1ecca7a9,University of Virginia Health,Mon Mar 20 2017 10:13:52 GMT-0400 (Eastern Daylight Time),1.49002E+12,Thu Apr 22 2021 11:07:53 GMT-0400 (Eastern Daylight Time),1.6191E+12,"hl7,kiosk,orchid,sso"

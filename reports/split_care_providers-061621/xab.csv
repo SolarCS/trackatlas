@@ -1,0 +1,21 @@
+ID,NAME,CREATED,CREATED (MS),UPDATED,UPDATED (MS),TAGS
+591b3c8dd27cbe3b8712b576,Peninsula Regional Medical Center,Tue May 16 2017 13:53:17 GMT-0400 (Eastern Daylight Time),1.49496E+12,Tue Jan 26 2021 22:01:19 GMT-0500 (Eastern Standard Time),1.61172E+12,"hl7,orchid"
+59555bcdd27cbeae95530829,Johns Hopkins Health System,Thu Jun 29 2017 15:58:05 GMT-0400 (Eastern Daylight Time),1.49877E+12,Wed Apr 28 2021 09:22:38 GMT-0400 (Eastern Daylight Time),1.61962E+12,"hl7,orchid,sso"
+59bc2849ff167259af2f1c8c,Staten Island PPS,Fri Sep 15 2017 15:21:46 GMT-0400 (Eastern Daylight Time),1.5055E+12,Tue Jan 26 2021 22:00:59 GMT-0500 (Eastern Standard Time),1.61172E+12,"dsrip,pam,voice"
+5adfa033ff167296f95e72e7,Medical West,Tue Apr 24 2018 17:22:59 GMT-0400 (Eastern Daylight Time),1.5246E+12,Tue Jan 26 2021 22:02:06 GMT-0500 (Eastern Standard Time),1.61172E+12,"hl7,orchid"
+5b4f50dcff16722008feef6e,Westchester Medical Center,Wed Jul 18 2018 10:38:20 GMT-0400 (Eastern Daylight Time),1.53192E+12,Thu Dec 17 2020 20:19:25 GMT-0500 (Eastern Standard Time),1.60825E+12,"implementation,sftp,voice"
+52f023595241494e0a6c0000,Beaumont Health System,Mon Feb 03 2014 18:16:41 GMT-0500 (Eastern Standard Time),1.39147E+12,Fri Feb 19 2021 11:36:07 GMT-0500 (Eastern Standard Time),1.61375E+12,"sftp,voice"
+527191f2677affa59a00000b,Bethesda Health,Wed Oct 30 2013 19:10:42 GMT-0400 (Eastern Daylight Time),1.38317E+12,Tue Dec 15 2020 09:52:37 GMT-0500 (Eastern Standard Time),1.60804E+12,"sftp,voice"
+51acb77a677affadae000115,SCL - St. James Healthcare,Mon Jun 03 2013 11:34:18 GMT-0400 (Eastern Daylight Time),1.37027E+12,Tue Dec 15 2020 09:57:56 GMT-0500 (Eastern Standard Time),1.60804E+12,voice
+5522cb8d5241496bfe2e0400,Kingsbrook Jewish Medical Center,Mon Apr 06 2015 14:08:13 GMT-0400 (Eastern Daylight Time),1.42834E+12,Mon Mar 08 2021 15:26:03 GMT-0500 (Eastern Standard Time),1.61524E+12,echo
+574f072dacc0db06c8000046,Providigm,Wed Jun 01 2016 12:02:53 GMT-0400 (Eastern Daylight Time),1.4648E+12,Tue Dec 15 2020 09:59:00 GMT-0500 (Eastern Standard Time),1.60804E+12,implementation
+57ebef63acc0db66042c1d82,Manatee Memorial Hospital,Wed Sep 28 2016 12:27:15 GMT-0400 (Eastern Daylight Time),1.47508E+12,Tue Dec 15 2020 09:59:41 GMT-0500 (Eastern Standard Time),1.60804E+12,"hl7,implementation,orchid"
+585189588e82a84f693d4c24,ASCENT,Wed Dec 14 2016 13:03:04 GMT-0500 (Eastern Standard Time),1.48174E+12,Tue Apr 27 2021 11:53:12 GMT-0400 (Eastern Daylight Time),1.61954E+12,"hl7,view"
+591db38dd27cbe8dc3f577b5,Saint Francis Hospital and Medical Center,Thu May 18 2017 10:45:33 GMT-0400 (Eastern Daylight Time),1.49512E+12,Tue Apr 06 2021 15:19:17 GMT-0400 (Eastern Daylight Time),1.61774E+12,"sftp,voice"
+59516787d27cbede1924d757,Community Health Network,Mon Jun 26 2017 15:59:03 GMT-0400 (Eastern Daylight Time),1.49851E+12,Fri Apr 30 2021 16:25:20 GMT-0400 (Eastern Daylight Time),1.61981E+12,"hl7,orchid"
+59dcd0bcff167278f2dea538,Nascentia Health,Tue Oct 10 2017 09:53:00 GMT-0400 (Eastern Daylight Time),1.50764E+12,Tue Jan 26 2021 22:01:02 GMT-0500 (Eastern Standard Time),1.61172E+12,"hha,sftp,voice"
+5b182aacd27cbe7487a74365,Marshall Health,Wed Jun 06 2018 14:40:44 GMT-0400 (Eastern Daylight Time),1.52831E+12,Thu Apr 22 2021 13:28:39 GMT-0400 (Eastern Daylight Time),1.61911E+12,"appointment reminders,sftp,voice"
+5b4ca0c7ff16723d0f9a617b,Beebe Healthcare,Mon Jul 16 2018 09:42:31 GMT-0400 (Eastern Daylight Time),1.53175E+12,Thu Apr 22 2021 13:38:20 GMT-0400 (Eastern Daylight Time),1.61911E+12,"sftp,voice"
+546e65f952414901d8b20200,UnityPoint Health,Thu Nov 20 2014 17:06:48 GMT-0500 (Eastern Standard Time),1.41652E+12,Wed Dec 16 2020 22:10:43 GMT-0500 (Eastern Standard Time),1.60817E+12,orchid
+51ae3d85acc0db2995000002,SCL - Saint Joseph Hospital,Tue Jun 04 2013 15:18:29 GMT-0400 (Eastern Daylight Time),1.37037E+12,Tue Dec 15 2020 09:53:33 GMT-0500 (Eastern Standard Time),1.60804E+12,"orchid,voice"
+557f57815241496e57820200,Rush University Medical Center,Mon Jun 15 2015 18:53:53 GMT-0400 (Eastern Daylight Time),1.43441E+12,Thu Apr 15 2021 11:02:59 GMT-0400 (Eastern Daylight Time),1.6185E+12,"hl7,orchid"

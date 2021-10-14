@@ -1,0 +1,21 @@
+ID,NAME,CREATED,CREATED (MS),UPDATED,UPDATED (MS),TAGS
+5b0ef760ff16727e2a621be8,Partners Healthcare,Wed May 30 2018 15:11:28 GMT-0400 (Eastern Daylight Time),1.52771E+12,Fri Mar 26 2021 15:00:34 GMT-0400 (Eastern Daylight Time),1.61679E+12,"hl7,orchid"
+54ee4d8c524149146cde0100,Indiana University Health,Wed Feb 25 2015 17:32:44 GMT-0500 (Eastern Standard Time),1.4249E+12,Tue Feb 23 2021 16:34:06 GMT-0500 (Eastern Standard Time),1.61412E+12,"sftp,voice"
+54130e4261706f24c3040000,Henry Ford Health System,Fri Sep 12 2014 11:16:18 GMT-0400 (Eastern Daylight Time),1.41053E+12,Fri Apr 23 2021 12:20:04 GMT-0400 (Eastern Daylight Time),1.61919E+12,"hl7,kiosk,orchid,voice"
+56e6d232acc0db51e30001f4,Premier Home Health Care,Mon Mar 14 2016 11:01:06 GMT-0400 (Eastern Daylight Time),1.45797E+12,Tue Dec 15 2020 09:58:39 GMT-0500 (Eastern Standard Time),1.60804E+12,voice
+575eb55facc0db0d0d4421f7,Twin Lakes Regional Medical Center,Mon Jun 13 2016 09:30:07 GMT-0400 (Eastern Daylight Time),1.46582E+12,Thu Dec 17 2020 09:02:36 GMT-0500 (Eastern Standard Time),1.60821E+12,voice
+57b22f2c4004121b3550dc06,Princeton Community Hospital,Mon Aug 15 2016 17:07:56 GMT-0400 (Eastern Daylight Time),1.4713E+12,Mon Mar 08 2021 15:55:10 GMT-0500 (Eastern Standard Time),1.61524E+12,voice
+5a942ea8d27cbe7de07adc06,White Horse Village,Mon Feb 26 2018 10:58:32 GMT-0500 (Eastern Standard Time),1.51966E+12,Tue Dec 15 2020 10:02:39 GMT-0500 (Eastern Standard Time),1.60804E+12,"echo,implementation,sftp,snf,voice"
+5b9fd48cff167259c8ca8681,Hartford Healthcare,Mon Sep 17 2018 12:21:32 GMT-0400 (Eastern Daylight Time),1.5372E+12,Fri Apr 16 2021 07:53:08 GMT-0400 (Eastern Daylight Time),1.61857E+12,"kiosk,sftp,voice"
+5b85617874410f23140f6a8d,Sierra Pacific Orthopedics,Tue Aug 28 2018 10:51:36 GMT-0400 (Eastern Daylight Time),1.53547E+12,Tue Feb 02 2021 14:27:16 GMT-0500 (Eastern Standard Time),1.61229E+12,"appointment reminders,hl7,implementation"
+5b7f1ffcd27cbe886d3450bf,Frederick Memorial Hospital,Thu Aug 23 2018 16:58:36 GMT-0400 (Eastern Daylight Time),1.53506E+12,Thu Apr 29 2021 14:25:46 GMT-0400 (Eastern Daylight Time),1.61972E+12,"hl7,orchid,sso"
+5c19524a74410ff8d71d9752,Community Hospital,Tue Dec 18 2018 15:02:18 GMT-0500 (Eastern Standard Time),1.54516E+12,Thu Jan 07 2021 13:04:43 GMT-0500 (Eastern Standard Time),1.61004E+12,"echo,orchid"
+5c113c1974410fc8443478d8,Riverside University Health System,Wed Dec 12 2018 11:49:29 GMT-0500 (Eastern Standard Time),1.54463E+12,Fri Apr 30 2021 17:06:50 GMT-0400 (Eastern Daylight Time),1.61982E+12,"hl7,implementation,orchid,sftp"
+5b856d97d27cbeda1d99f29c,Advocate Health Care,Tue Aug 28 2018 11:43:19 GMT-0400 (Eastern Daylight Time),1.53547E+12,Thu Apr 15 2021 10:10:44 GMT-0400 (Eastern Daylight Time),1.6185E+12,"hl7,orchid,sso"
+5b8e90cdff16721fae082110,Tealwood Senior Living,Tue Sep 04 2018 10:03:58 GMT-0400 (Eastern Daylight Time),1.53607E+12,Wed Dec 16 2020 21:54:46 GMT-0500 (Eastern Standard Time),1.60817E+12,"pam,sftp,voice"
+5bb3aadaff1672c192a61de9,UMass Memorial Medical Center,Tue Oct 02 2018 13:28:58 GMT-0400 (Eastern Daylight Time),1.5385E+12,Fri Apr 02 2021 10:40:13 GMT-0400 (Eastern Daylight Time),1.61737E+12,"hl7,implementation,orchid,sso"
+5bd8b72b74410f300b3459a9,CHI Mercy Medical,Tue Oct 30 2018 15:55:23 GMT-0400 (Eastern Daylight Time),1.54093E+12,Wed Feb 17 2021 23:12:54 GMT-0500 (Eastern Standard Time),1.61362E+12,"hl7,orchid"
+5bff0048d27cbe269edde145,Health First,Wed Nov 28 2018 15:53:28 GMT-0500 (Eastern Standard Time),1.54344E+12,Wed Apr 28 2021 11:41:44 GMT-0400 (Eastern Daylight Time),1.61962E+12,"hl7,implementation,orchid,sso"
+5c86821774410faa476d70ce,North Mississippi Health System,Mon Mar 11 2019 11:43:20 GMT-0400 (Eastern Daylight Time),1.55232E+12,Mon Apr 05 2021 11:43:08 GMT-0400 (Eastern Daylight Time),1.61764E+12,"implementation,sftp,voice"
+5d545ea4d27cbe2f767a217c,Enloe Medical Center,Wed Aug 14 2019 15:19:00 GMT-0400 (Eastern Daylight Time),1.56581E+12,Mon Apr 26 2021 18:13:36 GMT-0400 (Eastern Daylight Time),1.61948E+12,"appointment reminders,hl7,implementation,siu,sso,voice"
+5ccaf480ff16726c99ab5401,Scripps Health System,Thu May 02 2019 09:45:36 GMT-0400 (Eastern Daylight Time),1.5568E+12,Sat May 01 2021 13:51:29 GMT-0400 (Eastern Daylight Time),1.61989E+12,"implementation,sftp,voice"
