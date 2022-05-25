@@ -1,0 +1,7 @@
+parent_folder_id   : "388902785481"
+network_project_id : "prod-network-a581"
+network_name       : "ch-prod-network-xpn-host-1"
+env                : "prod"
+environment        : "production"
+machine_type       : "e2-standard-4"
+root_disk_size_gb  : "32"

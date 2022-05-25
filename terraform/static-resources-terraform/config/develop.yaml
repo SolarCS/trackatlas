@@ -1,0 +1,5 @@
+parent_folder_id        : "641044695738"
+network_project_id      : "dev-network-bb81"
+network_name            : "ch-dev-network-xpn-host-1"
+env                     : "dev"
+environment             : "develop"
