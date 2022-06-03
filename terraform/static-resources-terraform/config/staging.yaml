@@ -1,0 +1,5 @@
+parent_folder_id   : "233120175891"
+network_project_id : "stag-network-9a7f"
+network_name       : "ch-stag-network-xpn-host-1"
+env                : "stag"
+environment        : "staging"

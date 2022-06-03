@@ -1,0 +1,5 @@
+project_id_base        : "track-atlas-ch"
+org_id                 : "228410341324"
+primary_region         : "us-central1"
+primary_zone           : "us-central1-a"
+shared_vpc_subnet_name : "apps-tertiary"

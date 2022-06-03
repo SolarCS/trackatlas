@@ -1,0 +1,7 @@
+parent_folder_id   : "302809772051"
+network_project_id : "qaload-network-b5c0"
+network_name       : "ch-qaload-network-xpn-host-1"
+env                : "qaload"
+environment        : "qaload"
+machine_type       : "e2-standard-2"
+root_disk_size_gb  : "32"
