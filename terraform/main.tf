@@ -31,7 +31,7 @@ provider "google-beta" {
 }
 
 module "base-vm" {
-  source = "git@github.com:SolarCS/terraform-common-modules.git//google-compute-instance?ref=7074116c7ce3367ea8c1149f123c113cbe760fdb"
+  source = "git@github.com:SolarCS/terraform-common-modules.git//google-compute-instance?ref=v0.4.2"
 
   project_id             = data.google_project.project.project_id
   project_number         = data.google_project.project.number
