@@ -1,6 +1,8 @@
 const {MongoDBConnect} = require('./lib/mongo_utils');
 const {createCSV} = require('./lib/csv');
 
+var args = process.argv.slice(2);
+
 var mongo_connection;
 
 async function fetchCollectionStats(collectionName) {
@@ -31,21 +33,26 @@ async function main() {
     return collectionStats;
 }
 
-main().then(collections => {
-    createCSV(
-        "./reports/collectionStats.csv",
-        [
-            {id: 'namespace', title: 'Namespace'},
-            {id: 'collectionSize', title: 'Collection Size (bytes)'},
-            {id: 'docCount', title: 'Document Count'},
-            {id: 'avgObjSize', title: 'Average Object Size (bytes)'},
-            {id: 'storageSize', title: 'Storage Size'},
-            {id: 'numIndexes', title: 'Number of Indexes'},
-            {id: 'totalIndexSize', title: 'Total Index Size (bytes)'}
-        ], 
-        collections
-    );    
+if (args?.length) {
+    main().then(collections => {
+        createCSV(
+            args[0],
+            [
+                {id: 'namespace', title: 'Namespace'},
+                {id: 'collectionSize', title: 'Collection Size (bytes)'},
+                {id: 'docCount', title: 'Document Count'},
+                {id: 'avgObjSize', title: 'Average Object Size (bytes)'},
+                {id: 'storageSize', title: 'Storage Size'},
+                {id: 'numIndexes', title: 'Number of Indexes'},
+                {id: 'totalIndexSize', title: 'Total Index Size (bytes)'}
+            ], 
+            collections
+        );    
 
-}).catch(err => {
-    console.error(err);
-});
+    }).catch(err => {
+        console.error(err);
+    });
+} else {
+    console.log("Missing Output Path");
+    console.log("node banff_collection_stats.js path/to/where/the/output/should/go");
+}
