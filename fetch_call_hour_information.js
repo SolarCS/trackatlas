@@ -74,7 +74,7 @@ async function main(start_date, end_date, output_file) {
                 outreach_use_case: 1
             });
 
-            const cp = care_provider.getById(program.care_provider_id, {
+            const cp = await care_provider.getById(program.care_provider_id, {
                 _id: 0,
                 time_zone: 1,
                 name: 1
