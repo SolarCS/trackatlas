@@ -14,7 +14,7 @@ async function run() {
         console.log(`Care Provider Count: ${count}`);
 
         //--Extract
-        const cp_list = await care_providers.listAll({_id:1, name:1, created_at: 1, updated_at: 1, tags: 1});
+        const cp_list = await care_providers.listAll({_id:1, name:1, created_at: 1, last_import:1, updated_at: 1, tags: 1});
 
         //--Transform
         //--Convert dates to epoch format for easier ordering in excel
@@ -54,6 +54,7 @@ async function run() {
                 { id: 'name', title: 'NAME' },
                 { id: 'created_at', title: 'CREATED' },
                 { id: 'createdAtMS', title: 'CREATED (MS)' },
+                { id: 'last_import', title: 'LAST IMPORT' },
                 { id: 'updated_at', title: 'UPDATED' },
                 { id: 'updatedAtMS', title: 'UPDATED (MS)' },
                 { id: 'tags', title: 'TAGS' }

@@ -1,0 +1,40 @@
+Closing the connection
+{
+  contentTypes: {
+    'application/pdf': 2554143,
+    'text/plain': 537,
+    'text/comma-separated-values': 532151,
+    'audio/x-wav': 87425,
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document': 812,
+    'application/excel': 73,
+    'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 242,
+    'audio/mpeg': 129,
+    'image/png': 30419,
+    'image/jpeg': 5015,
+    'application/msword': 50,
+    'application/vnd.openxmlformats-officedocument.presentationml.presentation': 13,
+    'application/powerpoint': 1,
+    'text/html': 7,
+    'application/octet-stream': 465624,
+    'application/mp4': 5,
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.template': 1,
+    'image/gif': 7,
+    'application/xhtml+xml': 2,
+    'application/vnd.ms-outlook': 17,
+    'text/csv': 467541,
+    'application/vnd.ms-excel': 8,
+    'audio/wav': 2961,
+    'application/zip': 41
+  },
+  filesPerYear: {
+    '2014': 24,
+    '2015': 2704,
+    '2016': 28948,
+    '2017': 71145,
+    '2018': 632700,
+    '2019': 108430,
+    '2020': 1121428,
+    '2021': 1990672,
+    '2022': 191173
+  }
+}

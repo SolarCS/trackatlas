@@ -1,0 +1,20 @@
+ID,NAME,CREATED,CREATED (MS),UPDATED,UPDATED (MS),TAGS
+554008ab52414951751c0000,Mercy Health System,Tue Apr 28 2015 18:24:43 GMT-0400 (Eastern Daylight Time),1430259883485,Fri Apr 09 2021 01:54:52 GMT-0400 (Eastern Daylight Time),1617947692320,"hl7,orchid"
+52f023595241494e0a6c0000,Beaumont Health System,Mon Feb 03 2014 18:16:41 GMT-0500 (Eastern Standard Time),1391469401984,Fri Feb 19 2021 11:36:07 GMT-0500 (Eastern Standard Time),1613752567130,"sftp,voice"
+527191f2677affa59a00000b,Bethesda Health,Wed Oct 30 2013 19:10:42 GMT-0400 (Eastern Daylight Time),1383174642139,Tue Dec 15 2020 09:52:37 GMT-0500 (Eastern Standard Time),1608043957760,"sftp,voice"
+585189588e82a84f693d4c24,ASCENT,Wed Dec 14 2016 13:03:04 GMT-0500 (Eastern Standard Time),1481738584879,Tue Apr 27 2021 11:53:12 GMT-0400 (Eastern Daylight Time),1619538792196,"hl7,view"
+591db38dd27cbe8dc3f577b5,Saint Francis Hospital and Medical Center,Thu May 18 2017 10:45:33 GMT-0400 (Eastern Daylight Time),1495118733562,Tue Apr 06 2021 15:19:17 GMT-0400 (Eastern Daylight Time),1617736757810,"sftp,voice"
+5175aa7e1b85b034fb00007a,Saint Francis Hospital,Mon Apr 22 2013 17:24:14 GMT-0400 (Eastern Daylight Time),1366665854842,Fri Apr 30 2021 14:23:04 GMT-0400 (Eastern Daylight Time),1619806984718,voice
+5175a60b1b85b061b3000089,Camden Clark Medical Center,Mon Apr 22 2013 17:05:15 GMT-0400 (Eastern Daylight Time),1366664715172,Thu Dec 17 2020 06:51:05 GMT-0500 (Eastern Standard Time),1608205865080,voice
+5594014452414968b54b0200,Medical Center Hospital,Wed Jul 01 2015 11:03:32 GMT-0400 (Eastern Daylight Time),1435763012863,Mon Jan 25 2021 13:41:11 GMT-0500 (Eastern Standard Time),1611600071205,voice
+5399d46652414911a3a70000,Disney Hospital,Thu Jun 12 2014 12:25:10 GMT-0400 (Eastern Daylight Time),1402590310988,Tue Dec 15 2020 09:58:00 GMT-0500 (Eastern Standard Time),1608044280909,
+5aba9257ff1672d1d4de2a19,SCL Health,Tue Mar 27 2018 14:49:59 GMT-0400 (Eastern Daylight Time),1522176599555,Tue Jan 26 2021 22:01:02 GMT-0500 (Eastern Standard Time),1611716462488,"appointment reminders,hl7,implementation,orchid,voice"
+59540087d27cbe7850c445f2,Mount Sinai Hospital ,Wed Jun 28 2017 15:16:23 GMT-0400 (Eastern Daylight Time),1498677383674,Tue Jan 26 2021 22:01:19 GMT-0500 (Eastern Standard Time),1611716479611,"hl7,voice"
+5fe2604cd27cbef4e57fa1bc,(HL7 Test Provider) Guardian Angels Elim Home Care and Hospice,Tue Dec 22 2020 16:08:28 GMT-0500 (Eastern Standard Time),1608671308608,Wed Apr 14 2021 21:26:17 GMT-0400 (Eastern Daylight Time),1618449977684,hl7
+5e961030ff1672331b6daf3a,Jenny Jung CP,Tue Apr 14 2020 15:34:08 GMT-0400 (Eastern Daylight Time),1586892848181,Thu Apr 29 2021 13:14:03 GMT-0400 (Eastern Daylight Time),1619716443741,hl7
+602e7e77ff167245043a233d,(HL7 Test Provider) Homecare Holdings,Thu Feb 18 2021 09:49:27 GMT-0500 (Eastern Standard Time),1613659767111,Wed Apr 21 2021 16:03:18 GMT-0400 (Eastern Daylight Time),1619035398509,hl7
+5cc6fb4ad27cbe42ea3b004c,Disney Health Plan,Mon Apr 29 2019 09:25:30 GMT-0400 (Eastern Daylight Time),1556544330986,Tue Dec 15 2020 10:04:53 GMT-0500 (Eastern Standard Time),1608044693577,
+5e4c36ced27cbe07d743e8d6,Baptist Medical Center South,Tue Feb 18 2020 14:11:10 GMT-0500 (Eastern Standard Time),1582053070433,Tue Jan 26 2021 22:01:52 GMT-0500 (Eastern Standard Time),1611716512236,"hl7,implementation,orchid"
+5b9a88c1d27cbea5b9cfd739,ArchCare,Thu Sep 13 2018 11:56:49 GMT-0400 (Eastern Daylight Time),1536854209971,Mon Apr 05 2021 11:24:14 GMT-0400 (Eastern Daylight Time),1617636254486,"sftp,voice"
+5f6cfa87d27cbe1015ecf0b2,Quinn Test CP,Thu Sep 24 2020 15:59:03 GMT-0400 (Eastern Daylight Time),1600977543489,Thu Sep 24 2020 16:03:36 GMT-0400 (Eastern Daylight Time),1600977816938,
+607efbcdd27cbe246d3c746e,Carpenter Health,Tue Apr 20 2021 12:05:33 GMT-0400 (Eastern Daylight Time),1618934733607,Tue Apr 20 2021 12:08:02 GMT-0400 (Eastern Daylight Time),1618934882473,

@@ -1,7 +1,7 @@
 const {MongoDBConnect} = require('./lib/mongo_utils');
 var fs = require('fs');
 
-const FILE_PATH = './reports/collection_list.txt';
+var args = process.argv.slice(2);
 
 async function fetchCollectionList() {
     const mongo_connection = new MongoDBConnect();
@@ -13,21 +13,25 @@ async function fetchCollectionList() {
     return collections;
 }
 
-fetchCollectionList().then(collections => {
-    const collectionNames = collections.map(collection => {
-        return collection.collectionName;
+//--First argument should be the location where to store the list
+if (args?.length) {
+    // array and array.length are truthy
+    // ⇒ probably OK to process array
+    fetchCollectionList().then(collections => {
+        const collectionNames = collections.map(collection => {
+            return collection.collectionName;
+        });
+
+        collectionNames.sort();
+
+        fs.writeFile(args[0], collectionNames.join('\n'), err => {
+            if (err) {
+                console.error(err);
+            } else {
+                console.log(`collections report can be found in ${FILE_PATH}`);
+            }
+        });
+    }).catch(err => {
+        console.error(err);
     });
-
-    collectionNames.sort();
-
-    fs.writeFile(FILE_PATH, collectionNames.join('\n'), err => {
-        if (err) {
-            console.error(err);
-        } else {
-            console.log(`collections report can be found in ${FILE_PATH}`);
-        }
-    });
-}).catch(err => {
-    console.error(err);
-});
-
+}

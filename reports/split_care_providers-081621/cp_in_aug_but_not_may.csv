@@ -1,0 +1,14 @@
+ID,NAME,CREATED,CREATED (MS),UPDATED,UPDATED (MS),TAGS
+5175aa7e1b85b034fb00007a,Saint Francis Health- Tulsa,Mon Apr 22 2013 17:24:14 GMT-0400 (Eastern Daylight Time),1366665854842,Fri Sep 03 2021 13:47:02 GMT-0400 (Eastern Daylight Time),1630691222768,voice
+591db38dd27cbe8dc3f577b5,Trinity Health of NE,Thu May 18 2017 10:45:33 GMT-0400 (Eastern Daylight Time),1495118733562,Wed Aug 11 2021 17:01:18 GMT-0400 (Eastern Daylight Time),1628715678720,"sftp,voice"
+607efbcdd27cbe246d3c746e,Carpenter Health Network,Tue Apr 20 2021 12:05:33 GMT-0400 (Eastern Daylight Time),1618934733607,Tue Sep 28 2021 15:09:17 GMT-0400 (Eastern Daylight Time),1632856157563,hl7
+609439acd27cbe0ec4012adc,CareCentrix,Thu May 06 2021 14:47:09 GMT-0400 (Eastern Daylight Time),1620326829002,Mon Aug 09 2021 21:47:55 GMT-0400 (Eastern Daylight Time),1628560075640,voice
+60a3e1d5ff167201e8360a03,Duke Health,Tue May 18 2021 11:48:37 GMT-0400 (Eastern Daylight Time),1621352917592,Mon Aug 16 2021 10:03:59 GMT-0400 (Eastern Daylight Time),1629122639071,
+60a6a42774410f5af7470ae0,Clark Memorial Health,Thu May 20 2021 14:02:15 GMT-0400 (Eastern Daylight Time),1621533735313,Wed Sep 08 2021 10:12:19 GMT-0400 (Eastern Daylight Time),1631110339310,
+60a7ce3ad27cbe55bc4f15c1,One Brooklyn Health,Fri May 21 2021 11:14:02 GMT-0400 (Eastern Daylight Time),1621610042223,Fri Aug 13 2021 15:25:41 GMT-0400 (Eastern Daylight Time),1628882741021,"hl7,implementation"
+60a7f7c874410f30730b6d64,Carpenter Health (HL7 Test Provider),Fri May 21 2021 14:11:20 GMT-0400 (Eastern Daylight Time),1621620680519,Wed Aug 25 2021 16:33:08 GMT-0400 (Eastern Daylight Time),1629923588295,hl7
+60e4545974410f2ace2e1f5d,Lauren Test Provider,Tue Jul 06 2021 09:02:17 GMT-0400 (Eastern Daylight Time),1625576537259,Mon Aug 09 2021 21:47:55 GMT-0400 (Eastern Daylight Time),1628560075944,
+60e4576574410f2ace2e226f,Lauren C Test Provider,Tue Jul 06 2021 09:15:17 GMT-0400 (Eastern Daylight Time),1625577317784,Mon Aug 09 2021 21:47:55 GMT-0400 (Eastern Daylight Time),1628560075974,
+60eee987ff1672d66efdeda2,Stony Brook Medicine (Outpatient),Wed Jul 14 2021 09:41:27 GMT-0400 (Eastern Daylight Time),1626270087230,Thu Sep 30 2021 16:30:45 GMT-0400 (Eastern Daylight Time),1633033845023,"appointment reminders,hl7"
+61448a58ff1672969f5315c2,West Tennessee Healthcare,Fri Sep 17 2021 08:30:16 GMT-0400 (Eastern Daylight Time),1631881816442,Fri Sep 17 2021 09:07:23 GMT-0400 (Eastern Daylight Time),1631884043417,hl7
+61560dd1d27cbe068d5f443f,Pipeline Health,Thu Sep 30 2021 15:19:45 GMT-0400 (Eastern Daylight Time),1633029585620,Thu Sep 30 2021 15:20:05 GMT-0400 (Eastern Daylight Time),1633029605015,

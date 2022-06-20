@@ -79,3 +79,10 @@ node banff_collection_stats.js
 node canceled_provider_collection_usage.js 
 python cancelled_stats.py 
 ~~~~
+
+## Sequence
+~~~~
+$ node filter_test_care_providers.js
+$ python3 filter_canceled_care_providers.py --test_canceled_csv_loc ../reports/April2022/test_demo_canceled_care_providers_list.csv --report_output ../reports/April2022/canceled_care_providers_list.csv 
+$ python3 compare_actual_providers.py --Source1 ../reports/Oct2021/cancelled_care_providers.csv --Source2 ../reports/April2022/canceled_care_providers_list.csv --Output ../reports/April2022/new_canceled_care_providers.csv
+~~~~

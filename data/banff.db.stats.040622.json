@@ -1,0 +1,24 @@
+{
+	"db" : "banff",
+	"collections" : 231,
+	"views" : 0,
+	"objects" : 2268855422,
+	"avgObjSize" : 1666.6260970594362,
+	"dataSize" : 3781333656760,
+	"storageSize" : 1752814551040,
+	"numExtents" : 0,
+	"indexes" : 821,
+	"indexSize" : 210185945088,
+	"scaleFactor" : 1,
+	"fsUsedSize" : 2003147268096,
+	"fsTotalSize" : 2589673914368,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1649257723, 915),
+		"signature" : {
+			"hash" : BinData(0,"mXsP1lD/lesMXhoa+7QCqW9e0/0="),
+			"keyId" : NumberLong("7039511562045882414")
+		}
+	},
+	"operationTime" : Timestamp(1649257723, 915)
+}

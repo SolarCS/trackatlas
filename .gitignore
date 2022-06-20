@@ -9,3 +9,6 @@ reports/
 *.swp
 *.orig
 
+config/local.json
+
+.DS_Store
