@@ -88,6 +88,8 @@ async function main(start_date, end_date, output_file) {
             });
         }
 
+        console.log(results);
+        
         return results;
     }
     
