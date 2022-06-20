@@ -46,6 +46,7 @@ async function main(start_date, end_date, output_file) {
                     {id: 'outreach_program_id', title: 'Outreach Program ID'},
                     {id: 'outreach_use_case', title: 'Outreach Use Case'},
                     {id: 'category', title: 'Category'},
+                    {id: 'outreach_grouping_type', title: 'Outreach Grouping Type'},
                     {id: 'date', title: 'Call Launch Date'},
                     {id: 'hour', title: 'Call Launch Hour'},
                     {id: 'scheduled_count', title: 'Scheduled Count'},
@@ -89,7 +90,8 @@ async function main(start_date, end_date, output_file) {
                 _id: 0,
                 care_provider_id: 1,
                 outreach_use_case: 1,
-                name: 1
+                name: 1,
+                outreach_grouping_type: 1
             });
 
 	        const cp = await care_provider.getById(program[0].care_provider_id, {
@@ -103,6 +105,7 @@ async function main(start_date, end_date, output_file) {
                 care_provider_id: program[0].care_provider_id,
                 outreach_use_case: program[0].outreach_use_case,
                 program_name: program[0].name,
+                outreach_grouping_type: program[0].outreach_grouping_type,
                 time_zone: cp[0].time_zone,
                 care_provider_name: cp[0].name
             });
