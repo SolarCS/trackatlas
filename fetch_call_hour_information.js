@@ -5,6 +5,7 @@ const {
     OutreachProgram
 } = require('./lib/mongo_utils');
 const {ObjectId} = require('mongodb');
+const {createCSV} = require('./lib/csv');
 
 var results = [];
 
@@ -32,11 +33,26 @@ async function main(start_date, end_date, output_file) {
         const new_chi_fetch = partial_application(fetch_call_hour_information, start_date, end_date);
 
         await async_compose(
-            fetch_care_provider_information, 
             fetch_outreach_program_information, 
             new_chi_fetch
         )().then(result => {
-            console.log(result);
+            createCSV(
+                output_file,
+                [
+                    {id: 'care_provider_name', title: 'Care Provider Name'},
+                    {id: 'care_provider_id', title: 'Care Provider ID'},
+                    {id: 'time_zone', title: 'Time Zone'},
+                    {id: 'program_name', title: 'Program Name'},
+                    {id: 'outreach_program_id', title: 'Outreach Program ID'},
+                    {id: 'outreach_use_case', title: 'Outreach Use Case'},
+                    {id: 'category', title: 'Category'},
+                    {id: 'date', title: 'Call Launch Date'},
+                    {id: 'hour', title: 'Call Launch Hour'},
+                    {id: 'scheduled_count', title: 'Scheduled Count'},
+                    {id: 'launched_count', title: 'Launched Count'}
+                ], 
+                result
+            );    
         });
     } catch (e) {
         console.error(e);
@@ -63,45 +79,37 @@ async function main(start_date, end_date, output_file) {
     
     async function fetch_outreach_program_information(call_hour_information) {
         console.log('Fetch Outreach Program Information');
-        //console.log(call_hour_information);
 
         const outreach_program = new OutreachProgram(mongo_connection);
         const care_provider = new CareProviders(mongo_connection);
-        //const results = [];
 
+        //--Need a more parallel solution than this to speed up large result sets
         for (const call_hour of call_hour_information) {
-            console.log(call_hour);
-	    const program = await outreach_program.getById(call_hour.outreach_program_id, {
+	        const program = await outreach_program.getById(call_hour.outreach_program_id, {
                 _id: 0,
                 care_provider_id: 1,
-                outreach_use_case: 1
+                outreach_use_case: 1,
+                name: 1
             });
 
-            console.log(program[0]);
-	    const cp = await care_provider.getById(program[0].care_provider_id, {
+	        const cp = await care_provider.getById(program[0].care_provider_id, {
                 _id: 0,
                 time_zone: 1,
                 name: 1
             });
-            console.log(cp[0]);
+            
             results.push({
                 ...call_hour,
+                care_provider_id: program[0].care_provider_id,
                 outreach_use_case: program[0].outreach_use_case,
+                program_name: program[0].name,
                 time_zone: cp[0].time_zone,
                 care_provider_name: cp[0].name
             });
         }
-
-        console.log(results);
         
         return results;
-    }
-    
-    async function fetch_care_provider_information(call_hour_information) {
-        console.log('Fetch Care Provider Information');
-        // console.log(`call_hour_information: ${call_hour_information}`);
-        return call_hour_information;    
-    }    
+    } 
 }
 
 main(start_date, end_date, output_file).catch(err => {
