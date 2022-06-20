@@ -22,9 +22,9 @@ function async_compose(...function_pipeline) {
 
 async function main(start_date, end_date, output_file) {
     console.log(`Start Date: ${start_date}, End Date: ${end_date}, Output File: ${output_file}`);
-    // const mongo_connection = new MongoDBConnect();
+    const mongo_connection = new MongoDBConnect();
     try {
-        // await mongo_connection.connect();
+        await mongo_connection.connect();
 
         const new_chi_fetch = partial_application(fetch_call_hour_information, start_date, end_date);
 
@@ -39,23 +39,34 @@ async function main(start_date, end_date, output_file) {
         console.error(e);
     } finally {
         console.log("Closing the connection");
-        // mongo_connection.close();
+        mongo_connection.close();
     }
 
     async function fetch_call_hour_information(start_date, end_date) {
         console.log(`Fetch Call Hour Information: Start Date: ${start_date}, End Date: ${end_date}`);
-        return {};
+
+        const call_hour_info = new CallHourInfo(mongo_connection);
+
+        return await call_hour_info.fetchCallHourInformation(new Date(start_date), new Date(end_date), {
+            _id: 0,
+            scheduled_count: 1,
+            launched_count: 1,
+            outreach_program_id: 1,
+            date: 1,
+            hour: 1,
+            category: 1
+        });
     }
     
     async function fetch_outreach_program_information(call_hour_information) {
         console.log('Fetch Outreach Program Information');
-        console.log(`call_hour_information: ${call_hour_information}`);
+        // console.log(`call_hour_information: ${call_hour_information}`);
         return call_hour_information;
     }
     
     async function fetch_care_provider_information(call_hour_information) {
         console.log('Fetch Care Provider Information');
-        console.log(`call_hour_information: ${call_hour_information}`);
+        // console.log(`call_hour_information: ${call_hour_information}`);
         return call_hour_information;    
     }    
 }
